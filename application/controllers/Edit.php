@@ -83,11 +83,26 @@ class Edit extends CI_Controller{
 
             }
 
-        public function delete(){ // метод удаления записи из бд
+        public function delete()
+        { // метод удаления записи из бд
+            if (!isset($_SESSION['user'])) {  // если сессия не установлена - переходим на главную страницу
+                header('Location:' . base_url());
+            }
+            $id = $this->uri->segment(2);
             $this->load->model('edit_model');
-            $this->edit_model->deleteAd($this->uri->segment(2));
-            header('Location:' . base_url());
-        }
+            $result = $this->edit_model->Get_author($id);
 
+            if (!empty($result[0])) { // если результа не пустой, значит в бд объявление есть
+
+                if ($result[0]['author_name'] == $_SESSION['user']) {
+
+                    $this->load->model('edit_model');
+                    $this->edit_model->deleteAd($this->uri->segment(2));
+                    header('Location:' . base_url());
+                } else {
+                    header('Location:' . base_url());
+                }
+            }
+        }
 }
 ?>

@@ -1,0 +1,30 @@
+.pag{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    font-size: 10px;
+}
+.pag a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #46e5ff;
+    float: left;
+    margin: 5px;
+    border-radius:3px ;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+.pag strong{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #2f9dff;
+    float: left;
+    margin: 5px;
+    border-radius:3px ;
+    text-align: center;
+    text-decoration: none;
+}

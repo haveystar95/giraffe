@@ -1,0 +1,14 @@
+body{
+    background: #EEEEEE;
+}
+.show_box{
+    background: #e3dfe2; border-radius: 10px; margin-top:10px; padding: 10px;
+}
+.delete{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.edit{
+    width: 100px;
+    margin-bottom: 10px;
+}

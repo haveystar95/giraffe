@@ -1,0 +1,98 @@
+@media (max-width:480px){
+    
+    .addNew .button_create{
+        display: block;
+        width: 100%;
+        height: 50px;
+/*        margin-bottom: 300px;*/
+    }
+    
+    
+    .addNew{
+        
+            margin-bottom: -70px;
+    }
+    
+    
+ .btn-user{
+/*     display: block;*/
+     width: 100%;
+     margin-bottom: 8px;
+/*     background: red;*/
+    }
+    .ad{
+        
+        margin-top: 70px;
+    }
+    .block hr{
+/*        color: black;*/
+        background: #7e7e7e;
+    }
+    
+    .block{
+        margin-top: -50px;
+        margin: 0;
+    }
+    
+    .signout{
+/*        float:left;*/
+        display: block;
+        margin-right: 25%;
+        margin-bottom: 6px;
+        width: 50%;
+    }
+
+
+    #signin{
+        width: 100%;
+    }
+    
+    .edit_ad{
+        margin-top: 80px;
+    }
+    .edit_ad label{
+        font-size: 20px;
+    }
+    
+    .edit_ad #title{
+        height: 60px;
+        font-size: 20px;
+    }
+    
+    .edit_ad #description{
+        height: 50px;
+        min-height: 250px;
+        height: auto;
+        font-size: 18px;
+    }
+    
+    .edit_ad button{
+/*        position: absolute;*/
+        width: 100px;
+        margin-bottom: 0;
+        width: 100%;
+        margin-bottom: 10px;}
+    
+    
+/*        position: fixed;*/
+        
+    .edit_ad a{
+        width: 100%;
+    }
+    .cancel a{
+        width: 100%;
+    }
+    .win, .win2{
+        opacity: 1;
+    }
+
+    .delete{
+        width: 100%;
+    }
+    .edit{
+        width: 100%;
+    }
+    
+    
+    
+}

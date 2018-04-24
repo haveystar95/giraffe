@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #EEEEEE;
+}
+.form-signin{
+    margin: 0 auto;
+    width: 30%;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+
+.addNew{
+    width: 100%;
+    height: 50px;
+    /*border: 1px solid black;*/
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom:-60px;
+
+}
+
+.button_create{
+
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    /*margin-bottom:-70px;*/
+    /*margin-top:20px;*/
+}
+.block{
+    width: 100%;
+    margin-top: 20px;
+}
+.pagination{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-family: Helvetica;
+    color: #7c7b7b;
+}
+.pagination strong{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    background:#505C68 ;
+    text-align: center;
+    margin: 2px;
+    text-decoration: none;
+    color: #D1D1D3;
+    font-style: medium;
+    padding-top: 3px;
+    border: 1px solid #cecece;
+    font-size: 12px;
+    
+        
+}
+
+.pagination a{
+     display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    background:#FBFBFB;
+    text-align: center;
+    margin: 2px;
+     text-decoration: none;
+    font-family: Helvetica;
+    color: #B4BBC3;
+    border: 1px solid #cecece;
+    padding-top: 3px;
+     font-size: 12px;
+}
+.block hr{
+    border: 1px solid #d0d0d0;
+    color: black;
+}
+.ad{ 
+margin-top: 60px;
+}
+
+ .signout{
+/*        float:left;*/
+        display: block;
+        float: right;
+     margin-top: 8px;
+        margin-bottom: 6px;
+        width: 80px;
+    }
+
+ .win, .win2, .spec{
+     display: none;
+     position: absolute;
+     padding: 4px;
+     /*float: right;*/
+     width: 170px;
+     height: 50px;
+     border-radius: 5px;
+     background: white;
+     margin-top: 3px;
+     border: 1px solid #cecece;
+     text-align: center;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-size: 17px;
+     opacity: 0.8;
+
+ }
+
+

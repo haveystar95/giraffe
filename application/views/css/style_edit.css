@@ -1,0 +1,29 @@
+body{
+    background: #EEEEEE;
+}
+.edit_ad{
+    margin-top:70px;
+
+}
+.edit_ad textarea{
+    max-width: 100%;
+    max-height: 300px;
+    min-width: 100%;
+    min-height: 170px;
+}
+
+.cancel a{
+
+   /*margin-top: 5px;*/
+    width: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+.signout{
+/*        float:left;*/
+        display: block;
+        float: right;
+     margin-top: 8px;
+        margin-bottom: 6px;
+        width: 80px;
+    }

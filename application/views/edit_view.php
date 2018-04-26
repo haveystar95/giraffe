@@ -36,7 +36,7 @@
             </div>
             <div class="form-group">
                 <label for="title">Description</label>
-                <textarea class="form-control" name="description"  id="description" maxlength="60"  required ><?=$array_ad[0]['description']?></textarea>
+                <textarea class="form-control" name="description"  id="description" maxlength="1000"  required ><?=$array_ad[0]['description']?></textarea>
                 <div class="countarea"></div>
             </div>
 

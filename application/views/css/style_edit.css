@@ -27,3 +27,15 @@ body{
         margin-bottom: 6px;
         width: 80px;
     }
+
+.countstr{
+    width: 100px;
+    height: 20px;
+    font-family: Helvetica;
+    /*border:1px solid black;*/
+}
+.countarea{
+    width: 100px;
+    height: 20px;
+    font-family: Helvetica;
+}

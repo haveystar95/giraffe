@@ -1,8 +1,10 @@
 <?php
 
-class Edit_model extends CI_Model{
+class Edit_model extends CI_Model
+{
 
-    public function Insert_new_ad($title,$description){
+    public function Insert_new_ad($title,$description)
+    {
         $data['author_name']=$_SESSION['user'];
         $data['title']=htmlspecialchars($title);
         $data['description']=htmlspecialchars($description);
@@ -13,22 +15,23 @@ class Edit_model extends CI_Model{
 
     }
 
-
-
-    public  function Get_author($id){
+    public  function Get_author($id)
+    {
         $this->db->where('id',$id);
         $result=$this->db->get('ad');
         return $result->result_array();
     }
 
 
-    public function GetDataById($id){
+    public function GetDataById($id)
+    {
         $this->db->where('id',$id);
         $result=$this->db->get('ad');
        return $result->result_array();
     }
 
-    public function UpdateAd($title,$description,$id){
+    public function UpdateAd($title,$description,$id)
+    {
         $data['title']=htmlspecialchars($title);
         $data['description']=htmlspecialchars($description);
         $this->db->where('id',$id);
@@ -36,14 +39,12 @@ class Edit_model extends CI_Model{
     }
 
 
-    public function deleteAd($id){
+    public function deleteAd($id)
+    {
         $this->db->where('id',$id);
         $this->db->delete('ad');
     }
 
-
 }
-
-
 
 ?>

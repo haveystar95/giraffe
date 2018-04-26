@@ -2,7 +2,7 @@
 
 
 var res =0;
-$('#login').keyup(function () {
+$('#login').on("click keyup keydown change blur",function () {
     var str = $('#login').val();
     var res = str.search(/(<)|(>)|(php)|(\"{1})|(\'{1})/);
 //        console.log(str);
@@ -15,6 +15,10 @@ $('#login').keyup(function () {
         },1000)
 
     }
+    if(str.length> 25){
+        // alert('Eroor');
+        $('#login').val($('#login').val().substring(25, $('#login').val()-1));}
+
 })
 
 

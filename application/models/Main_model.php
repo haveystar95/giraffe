@@ -1,7 +1,7 @@
 <?php
 
-class Main_model extends CI_Model{
-
+class Main_model extends CI_Model
+{
 
     public function Show_ad($count,$offset)
     {
@@ -11,13 +11,11 @@ class Main_model extends CI_Model{
     }
 
 
-
     public function ShowOneAd($id)
     {
         $this->db->where('id',$id);
         $result=$this->db->get('ad');
         return  $result->result_array();
-
 
     }
 

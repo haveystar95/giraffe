@@ -20,12 +20,12 @@
             <form class="navbar-form navbar-right" role="form" action="" method="post" style="display:<?=$form?>">
 
                 <div class="form-group">
-                    <input type="login" placeholder="Login" id="login" name="login" class="form-control" autofocus autocomplete="off">
+                    <input type="login" placeholder="Login" id="login" name="login" class="form-control" autofocus autocomplete="off" maxlength="25">
                     <div class ="win">Заполните поле</div>
                     <div class ="spec">Запрещенный символ</div>
                 </div>
                 <div class="form-group">
-                    <input type="password" placeholder="Password" id="password" name="password" class="form-control" >
+                    <input type="password" placeholder="Password" id="password" name="password" class="form-control" maxlength="25" >
                     <div class ="win2">Заполните поле</div>
 
                 </div>

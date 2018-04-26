@@ -31,13 +31,13 @@
                 <input type="text" value="<?=$array_ad[0]['id']?>" name="id" style="display: none">
                 <label for="title">Title</label>
                 
-                <input type="text" name="title" class="form-control" id="title" value="<?=$array_ad[0]['title']?>" placeholder="Type title" autocomplete="off" required>
-
+                <input type="text" name="title" class="form-control" id="title" value="<?=$array_ad[0]['title']?>" placeholder="Type title" autocomplete="off"   maxlength="60" required>
+                    <div class="countstr"></div>
             </div>
             <div class="form-group">
                 <label for="title">Description</label>
-                <textarea class="form-control" name="description"  id="description" required ><?=$array_ad[0]['description']?></textarea>
-
+                <textarea class="form-control" name="description"  id="description" maxlength="60"  required ><?=$array_ad[0]['description']?></textarea>
+                <div class="countarea"></div>
             </div>
 
 
@@ -64,5 +64,8 @@
 
 
 </div>
+
+
+<script src="<?php echo site_url('application/views/js/edit.js'); ?>"></script>
 </body>
 </html>
